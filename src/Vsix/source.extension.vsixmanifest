@@ -4,6 +4,7 @@
     <Identity Id="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86" Version="1.0.0" Language="en-US" Publisher="Chris Martinez" />
     <DisplayName>More xUnit Templates</DisplayName>
     <Description xml:space="preserve">A collection of Visual Studio .NET project templates, item templates, and code snippets for xUnit.net.</Description>
+    <MoreInfo>https://github.com/commonsensesoftware/more.xunit.templates</MoreInfo>
     <License>LICENSE</License>
     <Icon>Icon.png</Icon>
     <PreviewImage>Preview.png</PreviewImage>
