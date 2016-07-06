@@ -157,4 +157,4 @@ the naming semantics could be based purely on class and method names. In my expe
 few developers are concerned with including the namespace in their test case names or descriptions.
 
 # Screenshots
-![screenshot](screenshot.png)
+![Screenshot](Screenshot.png "Screenshot")
