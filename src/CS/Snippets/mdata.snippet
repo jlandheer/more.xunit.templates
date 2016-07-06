@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+ <CodeSnippet Format="1.0.0">
+  <Header>
+   <SnippetTypes>
+    <SnippetType>Expansion</SnippetType>
+   </SnippetTypes>
+   <Title>Member Data</Title>
+   <Shortcut>mdata</Shortcut>
+   <Description>Code snippet for a member data property</Description>
+   <Author>Chris Martinez</Author>
+  </Header>
+  <Snippet>
+   <Imports>
+    <Import>
+     <Namespace>System.Collections.Generic</Namespace>
+    </Import>
+    <Import>
+     <Namespace>Xunit</Namespace>
+    </Import>
+   </Imports>
+   <Declarations>
+    <Literal>
+     <ID>name</ID>
+     <ToolTip>Replace with the name of the property</ToolTip>
+     <Default>Data1</Default>
+    </Literal>
+   </Declarations>
+   <Code Language="csharp">
+    <![CDATA[public static IEnumerable<object[]> $name$
+      {
+          get
+          {
+              $end$
+          }
+      }]]>
+   </Code>
+  </Snippet>
+ </CodeSnippet>
+</CodeSnippets>

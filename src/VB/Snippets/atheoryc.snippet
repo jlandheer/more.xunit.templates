@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+ <CodeSnippet Format="1.0.0">
+  <Header>
+   <SnippetTypes>
+    <SnippetType>Expansion</SnippetType>
+   </SnippetTypes>
+   <Title>Theory with Class Data (Asynchronous)</Title>
+   <Shortcut>atheoryc</Shortcut>
+   <Description>Code snippet for an asynchronous theory test method with class data</Description>
+   <Author>Chris Martinez</Author>
+  </Header>
+  <Snippet>
+   <Imports>
+    <Import>
+     <Namespace>System.Threading.Tasks</Namespace>
+    </Import>
+    <Import>
+     <Namespace>Xunit</Namespace>
+    </Import>
+   </Imports>
+   <Declarations>
+    <Literal Editable="false">
+     <ID>theory</ID>
+     <Function>SimpleTypeName(Global.Xunit.TheoryAttribute)</Function>
+    </Literal>
+    <Literal>
+     <ID>class</ID>
+     <ToolTip>Replace with the name of the class that provides the test data</ToolTip>
+     <Default>ClassName</Default>
+    </Literal>
+    <Literal>
+     <ID>name</ID>
+     <ToolTip>Replace with the name of the test method</ToolTip>
+     <Default>Theory1</Default>
+    </Literal>
+    <Literal>
+     <ID>argType</ID>
+     <ToolTip>Replace with the member data argument type</ToolTip>
+     <Default>object</Default>
+    </Literal>
+    <Literal>
+     <ID>argName</ID>
+     <ToolTip>Replace with the member data argument name</ToolTip>
+     <Default>expected</Default>
+    </Literal>
+   </Declarations>
+   <Code Language="vb">
+    <![CDATA[<$theory$>
+      <ClassData( GetType( $class$ ) )>
+      Public Async Function $name$( $argName$ As $argType$ ) As Task
+
+          ' arrange
+          $end$
+
+          ' act
+          
+
+          ' assert
+          
+
+      End Function]]>
+   </Code>
+  </Snippet>
+ </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+ <CodeSnippet Format="1.0.0">
+  <Header>
+   <SnippetTypes>
+    <SnippetType>Expansion</SnippetType>
+   </SnippetTypes>
+   <Title>Theory</Title>
+   <Shortcut>theory</Shortcut>
+   <Description>Code snippet for a theory test method</Description>
+   <Author>Chris Martinez</Author>
+  </Header>
+  <Snippet>
+   <Imports>
+    <Import>
+     <Namespace>Xunit</Namespace>
+    </Import>
+   </Imports>
+   <Declarations>
+    <Literal Editable="false">
+     <ID>theory</ID>
+     <Function>SimpleTypeName(global::Xunit.TheoryAttribute)</Function>
+    </Literal>
+    <Literal Editable="false">
+     <ID>inlinedata</ID>
+     <Function>SimpleTypeName(global::Xunit.InlineDataAttribute)</Function>
+    </Literal>
+    <Literal>
+     <ID>data</ID>
+     <ToolTip>Replace with the inline test data</ToolTip>
+     <Default>null</Default>
+    </Literal>
+    <Literal>
+     <ID>name</ID>
+     <ToolTip>Replace with the name of the test method</ToolTip>
+     <Default>Theory1</Default>
+    </Literal>
+    <Literal>
+     <ID>argType</ID>
+     <ToolTip>Replace with the inline data argument type</ToolTip>
+     <Default>object</Default>
+    </Literal>
+    <Literal>
+     <ID>argName</ID>
+     <ToolTip>Replace with the inline data argument name</ToolTip>
+     <Default>expected</Default>
+    </Literal>
+   </Declarations>
+   <Code Language="csharp">
+    <![CDATA[[$theory$]
+      [$inlinedata$( $data$ )]
+      public void $name$( $argType$ $argName$ )
+      {
+          // arrange
+          $end$
+
+          // act
+          
+
+          // assert
+          
+      }]]>
+   </Code>
+  </Snippet>
+ </CodeSnippet>
+</CodeSnippets>

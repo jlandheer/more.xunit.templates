@@ -1,0 +1,9 @@
+﻿// REF: http://madskristensen.net/post/shipping-visual-studio-snippets-in-an-extension
+
+// C#
+[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
+"xUnit"="$PackageFolder$\Snippets\CSharp\xUnit"
+
+// VB
+[$RootKey$\Languages\CodeExpansions\Basic\Paths]
+"xUnit"="$PackageFolder$\Snippets\VisualBasic\xUnit"

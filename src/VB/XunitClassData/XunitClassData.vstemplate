@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>xUnit Class Data (More)</Name>
+    <Description Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="223"/>
+    <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="217"/>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>ClassData.vb</DefaultName>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateGroupID>TestProject-V1</TemplateGroupID>
+    <TemplateID>TestProject-V1-More-XunitClassData</TemplateID>
+    <ShowByDefault>false</ShowByDefault>
+    <CustomDataSignature>TestProject-V1</CustomDataSignature>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">ClassData.vb</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86">
+      <package id="FluentAssertions" version="4.9.1" />
+      <package id="more.xunit" version="2.1.0" />
+      <package id="more.xunit.core" version="2.1.0" />
+      <package id="more.xunit.extensibility.core" version="2.1.0" />
+      <package id="more.xunit.extensibility.execution" version="2.1.0" />
+      <package id="xunit.abstractions" version="2.0.0" />
+      <package id="xunit.assert" version="2.1.0" />
+      <package id="xunit.runner.visualstudio" version="2.1.0" />
+    </packages>
+  </WizardData>
+</VSTemplate>

@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSXunitProject", "CS\XunitProject\CSXunitProject.csproj", "{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS", "CS", "{CE263CA9-6D50-499C-A6B7-EADAC834DE0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VB", "VB", "{7F606EC8-DE14-4AD9-8948-A7B05EBF4E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsix", "Vsix\Vsix.csproj", "{8508E29B-B2F6-450B-BEB7-AB88DEE2984C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSXunitClass", "CS\XunitClass\CSXunitClass.csproj", "{54492E4A-E6B6-45F6-8355-4C707F3D3749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSXunitClassData", "CS\XunitClassData\CSXunitClassData.csproj", "{3770BB09-7276-4C0B-9818-2974122880EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{DE1CD6F1-6429-4275-AB18-851DED8814D7}"
+	ProjectSection(SolutionItems) = preProject
+		CS\Snippets\afact.snippet = CS\Snippets\afact.snippet
+		CS\Snippets\atheory.snippet = CS\Snippets\atheory.snippet
+		CS\Snippets\atheoryc.snippet = CS\Snippets\atheoryc.snippet
+		CS\Snippets\atheorym.snippet = CS\Snippets\atheorym.snippet
+		CS\Snippets\fact.snippet = CS\Snippets\fact.snippet
+		CS\Snippets\mdata.snippet = CS\Snippets\mdata.snippet
+		CS\Snippets\theory.snippet = CS\Snippets\theory.snippet
+		CS\Snippets\theoryc.snippet = CS\Snippets\theoryc.snippet
+		CS\Snippets\theorym.snippet = CS\Snippets\theorym.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{4CB05343-09B3-4042-AA2E-07536EE4CD55}"
+	ProjectSection(SolutionItems) = preProject
+		VB\Snippets\afact.snippet = VB\Snippets\afact.snippet
+		VB\Snippets\atheory.snippet = VB\Snippets\atheory.snippet
+		VB\Snippets\atheoryc.snippet = VB\Snippets\atheoryc.snippet
+		VB\Snippets\atheorym.snippet = VB\Snippets\atheorym.snippet
+		VB\Snippets\fact.snippet = VB\Snippets\fact.snippet
+		VB\Snippets\mdata.snippet = VB\Snippets\mdata.snippet
+		VB\Snippets\theory.snippet = VB\Snippets\theory.snippet
+		VB\Snippets\theoryc.snippet = VB\Snippets\theoryc.snippet
+		VB\Snippets\theorym.snippet = VB\Snippets\theorym.snippet
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBXunitProject", "VB\XunitProject\VBXunitProject.vbproj", "{159D61D4-2054-4548-A451-1560A49B0C7D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBXunitClass", "VB\XunitClass\VBXunitClass.vbproj", "{F2A222C9-3C54-4D91-AC18-69991E3CC1D4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBXunitClassData", "VB\XunitClassData\VBXunitClassData.vbproj", "{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68A22D52-4122-4F99-91B7-D703691C7D9D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8508E29B-B2F6-450B-BEB7-AB88DEE2984C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8508E29B-B2F6-450B-BEB7-AB88DEE2984C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8508E29B-B2F6-450B-BEB7-AB88DEE2984C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8508E29B-B2F6-450B-BEB7-AB88DEE2984C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54492E4A-E6B6-45F6-8355-4C707F3D3749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54492E4A-E6B6-45F6-8355-4C707F3D3749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54492E4A-E6B6-45F6-8355-4C707F3D3749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54492E4A-E6B6-45F6-8355-4C707F3D3749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3770BB09-7276-4C0B-9818-2974122880EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3770BB09-7276-4C0B-9818-2974122880EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3770BB09-7276-4C0B-9818-2974122880EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3770BB09-7276-4C0B-9818-2974122880EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159D61D4-2054-4548-A451-1560A49B0C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159D61D4-2054-4548-A451-1560A49B0C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159D61D4-2054-4548-A451-1560A49B0C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159D61D4-2054-4548-A451-1560A49B0C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A222C9-3C54-4D91-AC18-69991E3CC1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A222C9-3C54-4D91-AC18-69991E3CC1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A222C9-3C54-4D91-AC18-69991E3CC1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A222C9-3C54-4D91-AC18-69991E3CC1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDD77EFC-7716-49C2-9AFA-A65E4BAEF881} = {CE263CA9-6D50-499C-A6B7-EADAC834DE0E}
+		{54492E4A-E6B6-45F6-8355-4C707F3D3749} = {CE263CA9-6D50-499C-A6B7-EADAC834DE0E}
+		{3770BB09-7276-4C0B-9818-2974122880EB} = {CE263CA9-6D50-499C-A6B7-EADAC834DE0E}
+		{DE1CD6F1-6429-4275-AB18-851DED8814D7} = {CE263CA9-6D50-499C-A6B7-EADAC834DE0E}
+		{4CB05343-09B3-4042-AA2E-07536EE4CD55} = {7F606EC8-DE14-4AD9-8948-A7B05EBF4E62}
+		{159D61D4-2054-4548-A451-1560A49B0C7D} = {7F606EC8-DE14-4AD9-8948-A7B05EBF4E62}
+		{F2A222C9-3C54-4D91-AC18-69991E3CC1D4} = {7F606EC8-DE14-4AD9-8948-A7B05EBF4E62}
+		{C7E23B8E-F1D1-491D-8FA7-4E616A2AE605} = {7F606EC8-DE14-4AD9-8948-A7B05EBF4E62}
+	EndGlobalSection
+EndGlobal
