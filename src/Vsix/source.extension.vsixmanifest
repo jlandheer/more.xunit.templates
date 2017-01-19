@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86" Version="1.0.0" Language="en-US" Publisher="Chris Martinez" />
-    <DisplayName>More xUnit Templates</DisplayName>
-    <Description xml:space="preserve">A collection of Visual Studio .NET project templates, item templates, and code snippets for xUnit.net.</Description>
-    <MoreInfo>https://github.com/commonsensesoftware/more.xunit.templates</MoreInfo>
-    <License>LICENSE</License>
-    <Icon>Icon.png</Icon>
-    <PreviewImage>Preview.png</PreviewImage>
-    <Tags>More Xunit Templates Unit Test</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-  </Dependencies>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="CSXunitProject" d:TargetPath="|CSXunitProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CSXunitClass" d:TargetPath="|CSXunitClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CSXunitClassData" d:TargetPath="|CSXunitClassData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="VBXunitProject" d:TargetPath="|VBXunitProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="VBXunitClass" d:TargetPath="|VBXunitClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="VBXunitClassData" d:TargetPath="|VBXunitClassData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets.pkgdef" />
-  </Assets>
+    <Metadata>
+        <Identity Id="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86" Version="1.0.0" Language="en-US" Publisher="Chris Martinez" />
+        <DisplayName>More xUnit Templates</DisplayName>
+        <Description xml:space="preserve">A collection of Visual Studio .NET project templates, item templates, and code snippets for xUnit.net.</Description>
+        <MoreInfo>https://github.com/commonsensesoftware/more.xunit.templates</MoreInfo>
+        <License>LICENSE</License>
+        <Icon>Icon.png</Icon>
+        <PreviewImage>Preview.png</PreviewImage>
+        <Tags>More Xunit Templates Unit Test</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0)" />
+        <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="CSXunitProject" d:TargetPath="|CSXunitProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CSXunitClass" d:TargetPath="|CSXunitClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="CSXunitClassData" d:TargetPath="|CSXunitClassData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="VBXunitProject" d:TargetPath="|VBXunitProject;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="VBXunitClass" d:TargetPath="|VBXunitClass;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="VBXunitClassData" d:TargetPath="|VBXunitClassData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets.pkgdef" />
+    </Assets>
 </PackageManifest>
