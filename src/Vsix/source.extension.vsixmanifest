@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86" Version="1.0.0" Language="en-US" Publisher="Chris Martinez" />
-        <DisplayName>More xUnit Templates</DisplayName>
-        <Description xml:space="preserve">A collection of Visual Studio .NET project templates, item templates, and code snippets for xUnit.net.</Description>
+        <Identity Id="More.Xunit.Templates.RB.9271b585-e3fd-4bbc-ac3b-80c37897ec86" Version="1.0.1" Language="en-US" Publisher="Roaring Blue" />
+        <DisplayName>More xUnit Templates (revised by RB)</DisplayName>
+        <Description xml:space="preserve">A collection of Visual Studio .NET project templates, item templates, and code snippets for xUnit.net. Fork from https://github.com/commonsensesoftware/more.xunit.templates.
+
+These templates have using statements outside the namespace declaration.</Description>
         <MoreInfo>https://github.com/commonsensesoftware/more.xunit.templates</MoreInfo>
         <License>LICENSE</License>
         <Icon>Icon.png</Icon>
         <PreviewImage>Preview.png</PreviewImage>
-        <Tags>More Xunit Templates Unit Test</Tags>
+        <Tags>More Xunit Templates Unit Test (JL)</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0)" />

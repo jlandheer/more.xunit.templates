@@ -23,7 +23,7 @@
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
   </WizardExtension>
   <WizardData>
-    <packages repository="extension" repositoryId="More.Xunit.Templates.9271b585-e3fd-4bbc-ac3b-80c37897ec86">
+    <packages repository="extension" repositoryId="More.Xunit.Templates.RB.9271b585-e3fd-4bbc-ac3b-80c37897ec86">
       <package id="FluentAssertions" version="4.9.1" />
       <package id="more.xunit" version="2.1.0" />
       <package id="more.xunit.core" version="2.1.0" />
